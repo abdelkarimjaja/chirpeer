@@ -100,6 +100,6 @@ class ChirpController extends Controller
 		
 		$chirp->delete();
 
-		return redirect(route('chirp.index'));
+		return redirect(route('chirps.index'));
 	}
 }
